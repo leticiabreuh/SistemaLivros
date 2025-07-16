@@ -20,9 +20,14 @@ public class SistemaLivros{
         livrobiblioteca.editora="Editora 123";
         livrobiblioteca.nrPaginas=200;
         livrobiblioteca.edicao=6;
+        livrobiblioteca.localPrateleira = "Prateleira AB2";
+        livrobiblioteca.categori = "Animacao";
+        livrobiblioteca.prazoEntrega= 20;
+        livrobiblioteca.nomeQuemEmprestou = "Leticia";
          livro.Ler();
         livro.Cadastrar();
         livro.Localizar();
+
 
     }
 }
