@@ -30,11 +30,23 @@ public class SistemaLivros{
 
         /*Livro Livraria */
         LivroLivraria livrolivraria = new LivroLivraria();
+                
+        livrolivraria.titulo = "Crepusculo";
+        livrolivraria.autor = "Autor Desconhecido";
+        livrolivraria.editora = "Editora 111";
+        livrolivraria.nrPaginas = 362;
+        livrolivraria.edicao = 10;
+        livrolivraria.localPrateleira = "Prateleira CB7";
+        livrolivraria.categoria = "Suspense";
+        livrolivraria.preco = 20.00;
+        livrolivraria.novoUsado = "Usado";
+ 
+        livrobiblioteca.Ler();
+        livrobiblioteca.Cadastrar();
+        livrobiblioteca.Localizar();
       
 
-        livro.Ler();
-        livro.Cadastrar();
-        livro.Localizar();
+        
         
 
 
