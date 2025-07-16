@@ -24,9 +24,25 @@ public class SistemaLivros{
         livrobiblioteca.categori = "Animacao";
         livrobiblioteca.prazoEntrega= 20;
         livrobiblioteca.nomeQuemEmprestou = "Leticia";
-         livro.Ler();
+        livro.Ler();
         livro.Cadastrar();
         livro.Localizar();
+
+        /*Livro Livraria */
+        LivroLivraria livrolivraria = new LivroLivraria();
+         livrolivraria.codigo =122;
+         livrolivraria.titulo="Ursinhos Carinhosos";
+         livrolivraria.autor="Autor Desconhecido";
+         livrolivraria.editora="Editora não sei";
+         livrolivraria.nrPaginas=120;
+         livrolivraria.edicao=5;
+         livrolivraria.localPrateleira = "Prateleira B2";
+         livrobiblioteca.categori = "Animacao";
+
+        livro.Ler();
+        livro.Cadastrar();
+        livro.Localizar();
+        
 
 
     }
