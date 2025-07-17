@@ -37,7 +37,7 @@ public class LivroLivraria extends Livro{
         this.localPrateleira=localPrateleira;
     }
      //Categoria set
-    public String setCategoria(String categoria){
+    public void setCategoria(String categoria){
         this.categoria=categoria;
     }
 
