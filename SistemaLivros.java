@@ -3,10 +3,10 @@ public class SistemaLivros{
 
         Livro livro = new Livro();
         livro.setCodigo (1);
-        livro.titulo="Codigo da Vinci";
-        livro.editora="Editora Xyz";
-        livro.nrPaginas=100;
-        livro.edicao=3;
+        livro.setTitulo("Codigo da Vinci");
+        livro.setEditora("Editora Xyz");
+        livro.setNrPaginas(100);
+        livro.setEdicao(3);
 
         livro.Ler();
         livro.Cadastrar();
@@ -15,15 +15,15 @@ public class SistemaLivros{
         /*Livro Biblioteca */
         LivroBiblioteca livrobiblioteca = new LivroBiblioteca();
         livrobiblioteca.setCodigo(11);
-        livrobiblioteca.titulo="Cinderela";
-        livrobiblioteca.autor="Autor Desconhecido";
-        livrobiblioteca.editora="Editora 123";
-        livrobiblioteca.nrPaginas=200;
-        livrobiblioteca.edicao=6;
-        livrobiblioteca.localPrateleira = "Prateleira AB2";
-        livrobiblioteca.categoria = "Animacao";
-        livrobiblioteca.prazoEntrega= 20;
-        livrobiblioteca.nomeQuemEmprestou = "Leticia";
+        livrobiblioteca.setTitulo("Cinderela");
+        livrobiblioteca.setAutor("Autor Desconhecido");
+        livrobiblioteca.setEditora("Editora 123");
+        livrobiblioteca.setNrPaginas(200);
+        livrobiblioteca.setEdicao(6);
+        livrobiblioteca.setLocalPrateleira("Prateleira AB2");
+        livrobiblioteca.setCategoria("Animacao");
+        livrobiblioteca.setPrazoEntrega(20);
+        livrobiblioteca.setNomeQuemEmprestou("Leticia");
         livro.Ler();
         livro.Cadastrar();
         livro.Localizar();
@@ -31,16 +31,16 @@ public class SistemaLivros{
         /*Livro Livraria */
         LivroLivraria livrolivraria = new LivroLivraria();
                 
-        livrolivraria.titulo = "Crepusculo";
-        livrolivraria.codigo= 21;
-        livrolivraria.autor = "Autor Desconhecido";
-        livrolivraria.editora = "Editora 111";
-        livrolivraria.nrPaginas = 362;
-        livrolivraria.edicao = 10;
-        livrolivraria.localPrateleira = "Prateleira CB7";
-        livrolivraria.categoria = "Suspense";
-        livrolivraria.preco = 20.00;
-        livrolivraria.novoUsado = "Usado";
+        livrolivraria.setTitulo("Crepusculo");
+        livrolivraria.setCodigo(21);
+        livrolivraria.setAutor("Autor Desconhecido");
+        livrolivraria.setEditora("Editora 111");
+        livrolivraria.setNrPaginas(362);
+        livrolivraria.setEdicao(10);
+        livrolivraria.setLocalPrateleira("Prateleira CB7");
+        livrolivraria.setCategoria("Suspense");
+        livrolivraria.setPreco(20.00);
+        livrolivraria.setNovoUsado("Usado");
  
         livrobiblioteca.Ler();
         livrobiblioteca.Cadastrar();
