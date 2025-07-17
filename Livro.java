@@ -7,7 +7,15 @@ public class Livro{
     private int edicao;
 
 
-    //Metodos
+    //Metodos Construtor(serve para contruir seu objeto com valores defaul)
+    Lrivro(){
+     this.codigo=0;
+     this. titulo=" ";
+     this.autor=" ";
+     this. editora=" ";
+     this.nrPaginas=0;
+     this.edicao=0;
+    }
 
     //Pegando uma informação com o get
     //Sempre com retorno
