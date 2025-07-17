@@ -5,22 +5,22 @@ public class LivroBiblioteca extends Livro{
     private int prazoEntrega;
     private String nomeQuemEmprestou;
 
-    //Metodos
+    //Métodos
 
     //GET
-    //Local get
+    //Local Get
     public String getLocalPrateleira(){
         return localPrateleira;
     }
-    //Categoria get
+    //Categoria  Get
     public String getCategoria(){
         return categoria;
     }
-    //Prazo de Entrega get
+    //Prazo de Entrega  Get
     public int getPrazoEntrega(){
         return prazoEntrega;
     }
-    //Nome de quem emprestou get
+    //Nome de quem emprestou  Get
     public String getNomeQuemEmprestou(){
         return nomeQuemEmprestou;
     }
@@ -30,15 +30,15 @@ public class LivroBiblioteca extends Livro{
     public void setLocalPrateleira(String localPrateleira){
         this.localPrateleira=localPrateleira;
     }
-    //Categoria set
+    //Categoria Set
     public void setCategoria(String categoria){
          this.categoria=categoria;
     }
-    //Prazo de Entrega set
+    //Prazo de Entrega Set
     public void setPrazoEntrega(int prazoEntrega){
       this.prazoEntrega=prazoEntrega;
     }
-    //Nome de quem emprestou set
+    //Nome de quem emprestou Set
     public void setNomeQuemEmprestou(String nomeQuemEmprestou){
       this.nomeQuemEmprestou=nomeQuemEmprestou;
     }

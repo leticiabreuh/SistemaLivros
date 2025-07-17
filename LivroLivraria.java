@@ -4,21 +4,21 @@ public class LivroLivraria extends Livro{
     private String localPrateleira;
     private String categoria;
  
-    // métodos
+    // Métodos
     //GET
-    //Preço get
+    //Preço Get
     public double getPreco(){
         return preco;
     }
-     //Novo ou usado get
+     //Novo ou usado  Get
     public String getNovoUsado(){
         return novoUsado;
     }
-     //Local get
+     //Local Get
     public String getLocalPrateleira(){
         return localPrateleira;
     }
-     //Categoria get
+     //Categoria  Get
     public String getCategoria(){
         return categoria;
     }
@@ -28,15 +28,15 @@ public class LivroLivraria extends Livro{
     public void setPreco(double preco){
         this.preco=preco;
     }
-     //Novo ou usado set
+     //Novo ou usado Set
     public void setNovoUsado(String novoUsado){
         this.novoUsado=novoUsado;
     }
-     //Local set
+     //Local Set
     public void setLocalPrateleira(String localPrateleira){
         this.localPrateleira=localPrateleira;
     }
-     //Categoria set
+     //Categoria Set
     public void setCategoria(String categoria){
         this.categoria=categoria;
     }

@@ -1,6 +1,7 @@
 public class SistemaLivros{
     public static void main(String[] args){
 
+        /*Livro */
         Livro livro = new Livro();
         livro.setCodigo (1);
         livro.setTitulo("Codigo da Vinci");
@@ -24,6 +25,7 @@ public class SistemaLivros{
         livrobiblioteca.setCategoria("Animacao");
         livrobiblioteca.setPrazoEntrega(20);
         livrobiblioteca.setNomeQuemEmprestou("Leticia");
+        
         livro.Ler();
         livro.Cadastrar();
         livro.Localizar();
@@ -48,7 +50,7 @@ public class SistemaLivros{
       
       System.out.println("Codigo do livro Livraria: "+livrolivraria.getCodigo());
       System.out.println("Codigo do livro Biblioteca: "+livrobiblioteca.getCodigo());
-       System.out.println("Codigo do livro Biblioteca: "+livro.getCodigo());
+      System.out.println("Codigo do livro Biblioteca: "+livro.getCodigo());
 
         
         
