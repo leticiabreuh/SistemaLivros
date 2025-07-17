@@ -2,7 +2,7 @@ public class SistemaLivros{
     public static void main(String[] args){
 
         Livro livro = new Livro();
-        livro.codigo =1;
+        livro.setCodigo (1);
         livro.titulo="Codigo da Vinci";
         livro.editora="Editora Xyz";
         livro.nrPaginas=100;
@@ -14,14 +14,14 @@ public class SistemaLivros{
 
         /*Livro Biblioteca */
         LivroBiblioteca livrobiblioteca = new LivroBiblioteca();
-        livrobiblioteca.codigo =11;
+        livrobiblioteca.setCodigo(11);
         livrobiblioteca.titulo="Cinderela";
         livrobiblioteca.autor="Autor Desconhecido";
         livrobiblioteca.editora="Editora 123";
         livrobiblioteca.nrPaginas=200;
         livrobiblioteca.edicao=6;
         livrobiblioteca.localPrateleira = "Prateleira AB2";
-        livrobiblioteca.categori = "Animacao";
+        livrobiblioteca.categoria = "Animacao";
         livrobiblioteca.prazoEntrega= 20;
         livrobiblioteca.nomeQuemEmprestou = "Leticia";
         livro.Ler();
@@ -32,6 +32,7 @@ public class SistemaLivros{
         LivroLivraria livrolivraria = new LivroLivraria();
                 
         livrolivraria.titulo = "Crepusculo";
+        livrolivraria.codigo= 21;
         livrolivraria.autor = "Autor Desconhecido";
         livrolivraria.editora = "Editora 111";
         livrolivraria.nrPaginas = 362;
@@ -45,6 +46,9 @@ public class SistemaLivros{
         livrobiblioteca.Cadastrar();
         livrobiblioteca.Localizar();
       
+      System.out.println("Codigo do livro Livraria: "+livrolivraria.getCodigo());
+      System.out.println("Codigo do livro Biblioteca: "+livrobiblioteca.getCodigo());
+       System.out.println("Codigo do livro Biblioteca: "+livro.getCodigo());
 
         
         
