@@ -3,6 +3,7 @@ public class LivroLivraria extends Livro{
     private String novoUsado;
     private String localPrateleira;
     private String categoria;
+    private int edicao;
  
     // Métodos
     //GET
@@ -22,6 +23,10 @@ public class LivroLivraria extends Livro{
     public String getCategoria(){
         return categoria;
     }
+     //Edicao  Get
+    public int getEdicao(){
+        return edicao;
+    }
 
     //SET
     //Preço Set
@@ -39,6 +44,10 @@ public class LivroLivraria extends Livro{
      //Categoria Set
     public void setCategoria(String categoria){
         this.categoria=categoria;
+    }
+    //Edicao  Set
+    public void getEdicao(int edicao){
+        this.edicao=edicao;
     }
 
 

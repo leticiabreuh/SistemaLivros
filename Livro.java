@@ -34,7 +34,7 @@ public class Livro{
         return nrPaginas;
     }
 
-    public int edicao(){
+    public int getEdicao(){
         return edicao;
     }
 

@@ -25,7 +25,8 @@ public class SistemaLivros{
         livrobiblioteca.setCategoria("Animacao");
         livrobiblioteca.setPrazoEntrega(20);
         livrobiblioteca.setNomeQuemEmprestou("Leticia");
-        
+
+         
         livro.Ler();
         livro.Cadastrar();
         livro.Localizar();
@@ -47,10 +48,40 @@ public class SistemaLivros{
         livrobiblioteca.Ler();
         livrobiblioteca.Cadastrar();
         livrobiblioteca.Localizar();
+
+        String mensagem = "\nCodigo: "+livro.getCodigo()+
+                          "\nTitulo: "+livro.getTitulo()+
+                          "\n Autor: "+livro.getAutor()+
+                          "\nEditora: "+livro.getEditora()+
+                          "\nNumeros de paginas: "+livro.getNrPaginas()+
+                          "\nEdicao: "+livro.getEdicao();
+
+        String mensagem2 = "\nCodigo: "+livrolivraria.getCodigo()+
+                          "\nTitulo: "+livrolivraria.getTitulo()+
+                          "\n Autor: "+livrolivraria.getAutor()+
+                          "\nEditora: "+livrolivraria.getEditora()+
+                          "\nNumeros de paginas: "+livrolivraria.getNrPaginas()+
+                          "\nEdicao: "+livrolivraria.getEdicao()+
+                          "\nLocal: "+livrolivraria.getLocalPrateleira()+
+                          "\nCategoria: "+livrolivraria.getCategoria()+
+                          "\nNovo/Usado: "+livrolivraria.getNovoUsado();
+
+        String mensagem3 = "\nCodigo: "+livrobiblioteca.getCodigo()+
+                          "\nTitulo: "+livrobiblioteca.getTitulo()+
+                          "\n Autor: "+livrobiblioteca.getAutor()+
+                          "\nEditora: "+livrobiblioteca.getEditora()+
+                          "\nNumeros de paginas: "+livrobiblioteca.getNrPaginas()+
+                          "\nEdicao: "+livrobiblioteca.getEdicao()+
+                          "\nLocal: "+livrobiblioteca.getLocalPrateleira()+
+                          "\nCategoria: "+livrobiblioteca.getCategoria()+
+                           "\nPrazo de Entrega: "+livrobiblioteca.getPrazoEntrega()+
+                          "\nQuem emprestou: "+livrobiblioteca.getNomeQuemEmprestou();
       
-      System.out.println("Codigo do livro Livraria: "+livrolivraria.getCodigo());
-      System.out.println("Codigo do livro Biblioteca: "+livrobiblioteca.getCodigo());
-      System.out.println("Codigo do livro Biblioteca: "+livro.getCodigo());
+      System.out.println("Livro: "+mensagem);
+      System.out.println(" ");
+      System.out.println("Livro Livraria: "+mensagem2);
+       System.out.println(" ");
+      System.out.println("Livro Biblioteca: "+mensagem3);
 
         
         
