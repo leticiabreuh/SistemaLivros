@@ -69,4 +69,15 @@ public class LivroBiblioteca extends Livro{
     public void Localizar(){
         System.out.println("Estou localizando um livro de bibilioteca...");
     }
+
+    @Override
+     public void Ler(){
+        System.out.println("Estou lendo o livro da biblioteca...");
+    }
+    
+    @Override
+    public void Cadastrar(){
+        System.out.println("Estou cadastrando o meu livro na biblioteca...");
+    }
+
 }
