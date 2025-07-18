@@ -54,4 +54,11 @@ public class LivroLivraria extends Livro{
     public void Vender(){
         System.out.println("Estou vendendo...");
     }
+
+
+    @Override
+    public void Localizar(){
+        System.out.println("Estou localizando um livro de livraria...");
+    }
+    
 }

@@ -64,4 +64,9 @@ public class LivroBiblioteca extends Livro{
     public void Devolver(){
         System.out.println("Estou devolvendo..");
     }
+
+    @Override
+    public void Localizar(){
+        System.out.println("Estou localizando um livro de bibilioteca...");
+    }
 }

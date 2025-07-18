@@ -27,9 +27,9 @@ public class SistemaLivros{
         livrobiblioteca.setNomeQuemEmprestou("Leticia");
 
          
-        livro.Ler();
-        livro.Cadastrar();
-        livro.Localizar();
+        livrobiblioteca.Ler();
+        livrobiblioteca.Cadastrar();
+        livrobiblioteca.Localizar();
 
         /*Livro Livraria */
         LivroLivraria livrolivraria = new LivroLivraria();
@@ -45,9 +45,9 @@ public class SistemaLivros{
         livrolivraria.setPreco(20.00);
         livrolivraria.setNovoUsado("Usado");
  
-        livrobiblioteca.Ler();
-        livrobiblioteca.Cadastrar();
-        livrobiblioteca.Localizar();
+        livrolivraria.Ler();
+        livrolivraria.Cadastrar();
+        livrolivraria.Localizar();
 
         String mensagem = "\nCodigo: "+livro.getCodigo()+
                           "\nTitulo: "+livro.getTitulo()+
