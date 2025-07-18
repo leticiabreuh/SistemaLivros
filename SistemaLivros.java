@@ -83,12 +83,21 @@ public class SistemaLivros{
        System.out.println(" ");
       System.out.println("Livro Biblioteca: "+mensagem3);
 
-        //Exemplo
+        //Metodo construtor com parametros
         Livro novoLivro = new Livro();
         System.out.println("Novo livro: "+novoLivro.getTitulo());
 
         Livro novoLivro2 = new Livro(99, "Titanic");
         System.out.println("Novo livro: "+novoLivro2.getTitulo());
+
+        //Metodo construtor com todos parametros
+         Livro novoLivro3 = new Livro(1, "A menina que roubava livros",
+                                        "Andreisse",
+                                        "Bosch",
+                                        600,
+                                        1
+         );
+                                            
         
 
 

@@ -26,6 +26,15 @@ public class Livro{
      this.edicao=0;
     }
 
+    Livro( int codigo,String titulo, String autor, String editora, int nrPaginas, int edicao){
+     this.codigo= codigo;
+     this. titulo= titulo;
+     this.autor= autor;
+     this. editora=editora;
+     this.nrPaginas=nrPaginas;
+     this.edicao=edicao;
+    }
+    
 
     //Pegando uma informação com o get
     //Sempre com retorno
