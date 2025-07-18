@@ -8,7 +8,7 @@ public class Livro{
 
 
     //Metodos Construtor(serve para contruir seu objeto com valores defaul)
-    Lrivro(){
+    Livro(){
      this.codigo=0;
      this. titulo=" ";
      this.autor=" ";
@@ -16,6 +16,16 @@ public class Livro{
      this.nrPaginas=0;
      this.edicao=0;
     }
+
+     Livro(int codigo, String titulo){
+     this.codigo= codigo;
+     this. titulo= titulo;
+     this.autor=" ";
+     this. editora=" ";
+     this.nrPaginas=0;
+     this.edicao=0;
+    }
+
 
     //Pegando uma informação com o get
     //Sempre com retorno

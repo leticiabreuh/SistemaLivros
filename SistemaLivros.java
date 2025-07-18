@@ -85,7 +85,10 @@ public class SistemaLivros{
 
         //Exemplo
         Livro novoLivro = new Livro();
-        System.out.println("Novo livro: "+novolivro.getTitulo();)
+        System.out.println("Novo livro: "+novoLivro.getTitulo());
+
+        Livro novoLivro2 = new Livro(99, "Titanic");
+        System.out.println("Novo livro: "+novoLivro2.getTitulo());
         
 
 
