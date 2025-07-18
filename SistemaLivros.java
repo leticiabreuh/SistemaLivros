@@ -97,6 +97,17 @@ public class SistemaLivros{
                                         600,
                                         1
          );
+
+         LivroBiblioteca livroBiblioteca = new LivroBiblioteca(2,
+                                                                "Crepusculo",
+                                                                "VAMPIRO",
+                                                                "DUDAO SA",
+                                                                20,
+                                                                3,
+                                                                "Andar 3",
+                                                                "Romance",
+                                                                5,
+                                                                "Marcelo");
                                             
         
 

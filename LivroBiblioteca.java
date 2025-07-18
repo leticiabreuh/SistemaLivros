@@ -6,6 +6,18 @@ public class LivroBiblioteca extends Livro{
     private String nomeQuemEmprestou;
 
     //Métodos
+    //Metodo construtor FILHO
+    LivroBiblioteca(){}
+    //Metodo construtor FILHO com parametros
+    LivroBiblioteca( int codigo,String titulo, String autor, String editora, int nrPaginas, int edicao, String localPrateleira, String categoria, int prazoEntrega, String nomeQuemEmprestou){
+       //Super esta atualizando as informações que está no pai, ou seja, no Livro
+       //Acesso ao Metodo construtor PAI(livro)
+        super(codigo, titulo, autor, editora, nrPaginas, edicao);
+        this.localPrateleira = localPrateleira;
+        this.categoria=categoria;
+        this.prazoEntrega= prazoEntrega;
+        this.nomeQuemEmprestou=nomeQuemEmprestou;
+    }
 
     //GET
     //Local Get
